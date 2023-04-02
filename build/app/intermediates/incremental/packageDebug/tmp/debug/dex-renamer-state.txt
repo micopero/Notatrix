@@ -1,4 +1,0 @@
-#Sat Apr 01 23:43:02 AEDT 2023
-base.0=/home/micopero/Development/git projects/Notatrix/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
-renamed.0=classes.dex
-path.0=classes.dex
