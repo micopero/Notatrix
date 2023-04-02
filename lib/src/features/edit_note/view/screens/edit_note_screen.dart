@@ -25,8 +25,9 @@ class _EditNoteScreenState extends ConsumerState<EditNoteScreen> {
   void initState() {
     // Do not use "watch" in initState, use "read"
     final homeControllerState = ref.read(homeControllerProvider);
-    final initialTitle = homeControllerState.notes[widget.noteId].title;
-    final initialBody = homeControllerState.notes[widget.noteId].body;
+    final initialTitle =
+        homeControllerState.notes.getNote(widget.noteId)!.title;
+    final initialBody = homeControllerState.notes.getNote(widget.noteId)!.body;
     titleController = TextEditingController(text: initialTitle);
     bodyController = TextEditingController(text: initialBody);
     super.initState();
@@ -35,8 +36,9 @@ class _EditNoteScreenState extends ConsumerState<EditNoteScreen> {
   // on confirm pressed
   void _confirmAction(BuildContext context) {
     final homeControllerState = ref.read(homeControllerProvider);
-    final initialTitle = homeControllerState.notes[widget.noteId].title;
-    final initialBody = homeControllerState.notes[widget.noteId].body;
+    final initialTitle =
+        homeControllerState.notes.getNote(widget.noteId)!.title;
+    final initialBody = homeControllerState.notes.getNote(widget.noteId)!.body;
     String title = titleController.text;
     String body = bodyController.text;
 

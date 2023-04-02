@@ -20,16 +20,16 @@ class HomeScreen extends ConsumerWidget {
         child: Padding(
           padding: const EdgeInsets.all(8.0),
           child: GridView.builder(
-            itemCount: homeControllerState.notes.length + 1,
+            itemCount: homeControllerState.notes.getLength() + 1,
             gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
                 crossAxisCount: 2),
             itemBuilder: (BuildContext context, int index) {
-              if (index == homeControllerState.notes.length) {
+              if (index == homeControllerState.notes.getLength()) {
                 return const AddNoteButton();
               } else {
                 return NoteButton(
-                  title: homeControllerState.notes[index].title,
-                  body: homeControllerState.notes[index].body,
+                  title: homeControllerState.notes.getNote(index)!.title,
+                  body: homeControllerState.notes.getNote(index)!.body,
                   onTap: () => context.pushNamed(NotatrixRoutes.editNote.name,
                       params: {'noteId': index.toString()}),
                 );

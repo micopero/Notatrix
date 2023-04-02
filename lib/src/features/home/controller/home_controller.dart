@@ -1,14 +1,16 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:hive_flutter/adapters.dart';
+import 'package:notatrix/src/features/home/data/local/hive_notatrix_notes_box.dart';
 import 'package:notatrix/src/features/home/model/notatrix_note.dart';
 
 /// class to contain the properties
 class HomeState {
-  List<NotatrixNote> notes;
+  HiveNotatrixNotesBox notes;
 
   HomeState({required this.notes});
 
   HomeState copyWith({
-    List<NotatrixNote>? notes,
+    HiveNotatrixNotesBox? notes,
   }) {
     return HomeState(
       notes: notes ?? this.notes,
@@ -21,21 +23,24 @@ class HomeController extends StateNotifier<HomeState> {
   HomeController(super.state);
 
   void addNote(NotatrixNote note) {
-    state.notes.add(note);
+    state.notes.addNote(note);
     state = state.copyWith(notes: state.notes);
   }
 
   void removeNote(int noteId) {
-    state.notes.removeAt(noteId);
+    state.notes.removeNote(noteId);
     state = state.copyWith(notes: state.notes);
   }
 
   void updateNote(int noteId, NotatrixNote updatedNote) {
-    state.notes[noteId] = updatedNote;
+    state.notes.updateNote(noteId, updatedNote);
     state = state.copyWith(notes: state.notes);
   }
 }
 
 /// exposing the controller using Riverpod
-final homeControllerProvider = StateNotifierProvider<HomeController, HomeState>(
-    (ref) => HomeController(HomeState(notes: [])));
+final homeControllerProvider =
+    StateNotifierProvider<HomeController, HomeState>((ref) {
+  ref.onDispose(() => Hive.close());
+  return HomeController(HomeState(notes: HiveNotatrixNotesBox()));
+});
