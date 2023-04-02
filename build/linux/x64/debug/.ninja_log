@@ -1,0 +1,56 @@
+# ninja log v5
+0	8731	0	/home/micopero/Development/git projects/Notatrix/linux/flutter/ephemeral/flutter_linux/fl_method_codec.h	6e9853a2385a1cbc
+0	8731	0	/home/micopero/Development/git projects/Notatrix/linux/flutter/ephemeral/flutter_linux/fl_message_codec.h	6e9853a2385a1cbc
+0	8731	0	/home/micopero/Development/git projects/Notatrix/linux/flutter/ephemeral/flutter_linux/fl_plugin_registry.h	6e9853a2385a1cbc
+0	8731	0	/home/micopero/Development/git projects/Notatrix/linux/flutter/ephemeral/flutter_linux/fl_value.h	6e9853a2385a1cbc
+0	8731	0	/home/micopero/Development/git projects/Notatrix/linux/flutter/ephemeral/flutter_linux/fl_method_channel.h	6e9853a2385a1cbc
+0	8731	0	/home/micopero/Development/git projects/Notatrix/linux/flutter/ephemeral/flutter_linux/fl_method_call.h	6e9853a2385a1cbc
+0	8731	0	/home/micopero/Development/git projects/Notatrix/linux/flutter/ephemeral/flutter_linux/fl_json_message_codec.h	6e9853a2385a1cbc
+0	8731	0	/home/micopero/Development/git projects/Notatrix/linux/flutter/ephemeral/flutter_linux/fl_engine.h	6e9853a2385a1cbc
+0	8731	0	/home/micopero/Development/git projects/Notatrix/linux/flutter/ephemeral/flutter_linux/fl_binary_codec.h	6e9853a2385a1cbc
+0	8731	0	/home/micopero/Development/git projects/Notatrix/linux/flutter/ephemeral/flutter_linux/fl_dart_project.h	6e9853a2385a1cbc
+0	8731	0	/home/micopero/Development/git projects/Notatrix/linux/flutter/ephemeral/flutter_linux/fl_method_response.h	6e9853a2385a1cbc
+0	8731	0	/home/micopero/Development/git projects/Notatrix/linux/flutter/ephemeral/flutter_linux/fl_string_codec.h	6e9853a2385a1cbc
+0	8731	0	/home/micopero/Development/git projects/Notatrix/linux/flutter/ephemeral/flutter_linux/fl_json_method_codec.h	6e9853a2385a1cbc
+8732	9132	1680340106975489071	CMakeFiles/notatrix.dir/flutter/generated_plugin_registrant.cc.o	a646c119e67663a0
+0	8731	0	/home/micopero/Development/git projects/Notatrix/linux/flutter/ephemeral/flutter_linux/fl_binary_messenger.h	6e9853a2385a1cbc
+9266	9330	0	CMakeFiles/install.util	d05da873046330a9
+0	8731	0	/home/micopero/Development/git projects/Notatrix/linux/flutter/ephemeral/flutter_linux/fl_plugin_registrar.h	6e9853a2385a1cbc
+0	8731	0	/home/micopero/Development/git projects/Notatrix/linux/flutter/ephemeral/libflutter_linux_gtk.so	6e9853a2385a1cbc
+8732	9158	1680340107003488948	CMakeFiles/notatrix.dir/my_application.cc.o	6e300284668c68d1
+0	8731	0	/home/micopero/Development/git projects/Notatrix/linux/flutter/ephemeral/flutter_linux/flutter_linux.h	6e9853a2385a1cbc
+0	8731	0	/home/micopero/Development/git projects/Notatrix/linux/flutter/ephemeral/flutter_linux/fl_standard_message_codec.h	6e9853a2385a1cbc
+0	8731	0	/home/micopero/Development/git projects/Notatrix/build/linux/x64/debug/flutter/_phony_	6e9853a2385a1cbc
+0	8731	0	flutter/_phony_	6e9853a2385a1cbc
+8732	9104	1680340106943489212	CMakeFiles/notatrix.dir/main.cc.o	6fc955c0458e90b2
+0	8731	0	/home/micopero/Development/git projects/Notatrix/linux/flutter/ephemeral/flutter_linux/fl_view.h	6e9853a2385a1cbc
+0	8731	0	/home/micopero/Development/git projects/Notatrix/linux/flutter/ephemeral/flutter_linux/fl_standard_method_codec.h	6e9853a2385a1cbc
+9159	9266	1680340107111488481	intermediates_do_not_run/notatrix	99427200b35a2fc4
+0	8731	0	/home/micopero/Development/git projects/Notatrix/linux/flutter/ephemeral/flutter_linux/fl_basic_message_channel.h	6e9853a2385a1cbc
+5	3729	0	/home/micopero/Development/git projects/Notatrix/linux/flutter/ephemeral/libflutter_linux_gtk.so	6e9853a2385a1cbc
+5	3729	0	/home/micopero/Development/git projects/Notatrix/linux/flutter/ephemeral/flutter_linux/fl_basic_message_channel.h	6e9853a2385a1cbc
+5	3729	0	/home/micopero/Development/git projects/Notatrix/linux/flutter/ephemeral/flutter_linux/fl_binary_codec.h	6e9853a2385a1cbc
+5	3729	0	/home/micopero/Development/git projects/Notatrix/linux/flutter/ephemeral/flutter_linux/fl_binary_messenger.h	6e9853a2385a1cbc
+5	3729	0	/home/micopero/Development/git projects/Notatrix/linux/flutter/ephemeral/flutter_linux/fl_dart_project.h	6e9853a2385a1cbc
+5	3729	0	/home/micopero/Development/git projects/Notatrix/linux/flutter/ephemeral/flutter_linux/fl_engine.h	6e9853a2385a1cbc
+5	3729	0	/home/micopero/Development/git projects/Notatrix/linux/flutter/ephemeral/flutter_linux/fl_json_message_codec.h	6e9853a2385a1cbc
+5	3729	0	/home/micopero/Development/git projects/Notatrix/linux/flutter/ephemeral/flutter_linux/fl_json_method_codec.h	6e9853a2385a1cbc
+5	3729	0	/home/micopero/Development/git projects/Notatrix/linux/flutter/ephemeral/flutter_linux/fl_message_codec.h	6e9853a2385a1cbc
+5	3729	0	/home/micopero/Development/git projects/Notatrix/linux/flutter/ephemeral/flutter_linux/fl_method_call.h	6e9853a2385a1cbc
+5	3729	0	/home/micopero/Development/git projects/Notatrix/linux/flutter/ephemeral/flutter_linux/fl_method_channel.h	6e9853a2385a1cbc
+5	3729	0	/home/micopero/Development/git projects/Notatrix/linux/flutter/ephemeral/flutter_linux/fl_method_codec.h	6e9853a2385a1cbc
+5	3729	0	/home/micopero/Development/git projects/Notatrix/linux/flutter/ephemeral/flutter_linux/fl_method_response.h	6e9853a2385a1cbc
+5	3729	0	/home/micopero/Development/git projects/Notatrix/linux/flutter/ephemeral/flutter_linux/fl_plugin_registrar.h	6e9853a2385a1cbc
+5	3729	0	/home/micopero/Development/git projects/Notatrix/linux/flutter/ephemeral/flutter_linux/fl_plugin_registry.h	6e9853a2385a1cbc
+5	3729	0	/home/micopero/Development/git projects/Notatrix/linux/flutter/ephemeral/flutter_linux/fl_standard_message_codec.h	6e9853a2385a1cbc
+5	3729	0	/home/micopero/Development/git projects/Notatrix/linux/flutter/ephemeral/flutter_linux/fl_standard_method_codec.h	6e9853a2385a1cbc
+5	3729	0	/home/micopero/Development/git projects/Notatrix/linux/flutter/ephemeral/flutter_linux/fl_string_codec.h	6e9853a2385a1cbc
+5	3729	0	/home/micopero/Development/git projects/Notatrix/linux/flutter/ephemeral/flutter_linux/fl_value.h	6e9853a2385a1cbc
+5	3729	0	/home/micopero/Development/git projects/Notatrix/linux/flutter/ephemeral/flutter_linux/fl_view.h	6e9853a2385a1cbc
+5	3729	0	/home/micopero/Development/git projects/Notatrix/linux/flutter/ephemeral/flutter_linux/flutter_linux.h	6e9853a2385a1cbc
+5	3729	0	flutter/_phony_	6e9853a2385a1cbc
+5	3729	0	/home/micopero/Development/git projects/Notatrix/build/linux/x64/debug/flutter/_phony_	6e9853a2385a1cbc
+3729	4254	1680352906478400671	CMakeFiles/notatrix.dir/flutter/generated_plugin_registrant.cc.o	a646c119e67663a0
+3729	4304	1680352906526401676	CMakeFiles/notatrix.dir/my_application.cc.o	6e300284668c68d1
+4304	4411	1680352906638404022	intermediates_do_not_run/notatrix	581a8574ee064ba7
+4411	4491	0	CMakeFiles/install.util	d05da873046330a9
